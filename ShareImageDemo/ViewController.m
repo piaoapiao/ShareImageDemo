@@ -22,6 +22,14 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    self.date = [NSDate date];
+    self.date;
+    [self.date compare:nil];
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -35,6 +43,16 @@
     a++;
     NSString *str = [NSString stringWithFormat:@"count:%d",a];
     UIPasteboard* pasteboard = [UIPasteboard generalPasteboard];
+    if(_date)
+    {
+        printf("date have value");
+    }
+    
+    printf("test0");
+    self.date;
+    printf("test1");
+    [self.date compare:nil];
+    printf("test2");
     
 //    UIPasteboard* pasteboard = [UIPasteboard generalPasteboard];
 //    //[pasteboard setString:str];
@@ -43,7 +61,7 @@
 //    {
 //        [self setTitle:str];
 //    }
-    [pasteboard setString:str];
+//    [pasteboard setString:str];
     
     
     
@@ -55,14 +73,14 @@
     //        [self.loginBtn setBackgroundImage:image forState:UIControlStateNormal];
     //    }
     
-    if(a%2==0)
-    {
-        [pasteboard setImage:[UIImage imageNamed:@"ykt"]];
-    }
-    else
-    {
-        [pasteboard setImage:[UIImage imageNamed:@"dy"]];
-    }
+//    if(a%2==0)
+//    {
+//        [pasteboard setImage:[UIImage imageNamed:@"yhq"]];
+//    }
+//    else
+//    {
+//        [pasteboard setImage:[UIImage imageNamed:@"dy"]];
+//    }
     
     
     
@@ -70,7 +88,7 @@
 
     NSLog(@"您点击的是拷贝%@",pasteboard.items);
      
-     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"NONOBANK://test"]];
+//     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"NONOBANK://test"]];
     
 }
 @end

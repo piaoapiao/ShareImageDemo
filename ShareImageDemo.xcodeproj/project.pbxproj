@@ -13,8 +13,8 @@
 		4621AED3211BE10600F1143A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4621AED2211BE10600F1143A /* Assets.xcassets */; };
 		4621AED6211BE10600F1143A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4621AED4211BE10600F1143A /* LaunchScreen.storyboard */; };
 		4621AED9211BE10600F1143A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4621AED8211BE10600F1143A /* main.m */; };
-		4621AEE2211BE6F400F1143A /* dy.png in Resources */ = {isa = PBXBuildFile; fileRef = 4621AEE0211BE6F400F1143A /* dy.png */; };
 		4621AEE4211BE72400F1143A /* ykt.png in Resources */ = {isa = PBXBuildFile; fileRef = 4621AEE3211BE72400F1143A /* ykt.png */; };
+		4621AEE6211BEB4A00F1143A /* yhq.png in Resources */ = {isa = PBXBuildFile; fileRef = 4621AEE5211BEB4A00F1143A /* yhq.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +28,8 @@
 		4621AED5211BE10600F1143A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4621AED7211BE10600F1143A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4621AED8211BE10600F1143A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4621AEE0211BE6F400F1143A /* dy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dy.png; path = ../../../Documents/CompanyGit/MaiZiCaiFu/YHB_Prj/NNProjectModule/ProductModule/Product.xcassets/Homepage/Company/nn_homepage_icon_movieticket.imageset/dy.png; sourceTree = "<group>"; };
 		4621AEE3211BE72400F1143A /* ykt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ykt.png; sourceTree = "<group>"; };
+		4621AEE5211BEB4A00F1143A /* yhq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yhq.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 		4621AEC8211BE10500F1143A /* ShareImageDemo */ = {
 			isa = PBXGroup;
 			children = (
-				4621AEE0211BE6F400F1143A /* dy.png */,
+				4621AEE5211BEB4A00F1143A /* yhq.png */,
 				4621AEE3211BE72400F1143A /* ykt.png */,
 				4621AEC9211BE10500F1143A /* AppDelegate.h */,
 				4621AECA211BE10500F1143A /* AppDelegate.m */,
@@ -134,10 +134,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4621AEE2211BE6F400F1143A /* dy.png in Resources */,
 				4621AEE4211BE72400F1143A /* ykt.png in Resources */,
 				4621AED6211BE10600F1143A /* LaunchScreen.storyboard in Resources */,
 				4621AED3211BE10600F1143A /* Assets.xcassets in Resources */,
+				4621AEE6211BEB4A00F1143A /* yhq.png in Resources */,
 				4621AED1211BE10500F1143A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +294,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A2Q3FA8KGK;
 				INFOPLIST_FILE = ShareImageDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A2Q3FA8KGK;
 				INFOPLIST_FILE = ShareImageDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
