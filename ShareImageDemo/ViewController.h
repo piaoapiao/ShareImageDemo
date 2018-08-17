@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+#import "MyDate.h"
+
 @interface ViewController : UIViewController
 
-@property (nonatomic,assign) NSDate  *date;  //@property (nonatomic,strong) NSDate  *date;  assign 会被释放
+@property (nonatomic,assign) MyDate  *date;  //@property (nonatomic,strong) NSDate  *date;  assign 会被释放
 
 @end
 

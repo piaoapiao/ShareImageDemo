@@ -15,6 +15,8 @@
 		4621AED9211BE10600F1143A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4621AED8211BE10600F1143A /* main.m */; };
 		4621AEE4211BE72400F1143A /* ykt.png in Resources */ = {isa = PBXBuildFile; fileRef = 4621AEE3211BE72400F1143A /* ykt.png */; };
 		4621AEE6211BEB4A00F1143A /* yhq.png in Resources */ = {isa = PBXBuildFile; fileRef = 4621AEE5211BEB4A00F1143A /* yhq.png */; };
+		467CE0712125826C004161C2 /* MyDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 467CE0702125826C004161C2 /* MyDate.m */; };
+		467CE0742126A1ED004161C2 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 467CE0732126A1ED004161C2 /* Aspects.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,10 @@
 		4621AED8211BE10600F1143A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4621AEE3211BE72400F1143A /* ykt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ykt.png; sourceTree = "<group>"; };
 		4621AEE5211BEB4A00F1143A /* yhq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yhq.png; sourceTree = "<group>"; };
+		467CE06F2125826C004161C2 /* MyDate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDate.h; sourceTree = "<group>"; };
+		467CE0702125826C004161C2 /* MyDate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDate.m; sourceTree = "<group>"; };
+		467CE0722126A1ED004161C2 /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		467CE0732126A1ED004161C2 /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +68,14 @@
 		4621AEC8211BE10500F1143A /* ShareImageDemo */ = {
 			isa = PBXGroup;
 			children = (
+				467CE0722126A1ED004161C2 /* Aspects.h */,
+				467CE0732126A1ED004161C2 /* Aspects.m */,
 				4621AEE5211BEB4A00F1143A /* yhq.png */,
 				4621AEE3211BE72400F1143A /* ykt.png */,
 				4621AEC9211BE10500F1143A /* AppDelegate.h */,
 				4621AECA211BE10500F1143A /* AppDelegate.m */,
+				467CE06F2125826C004161C2 /* MyDate.h */,
+				467CE0702125826C004161C2 /* MyDate.m */,
 				4621AECC211BE10500F1143A /* ViewController.h */,
 				4621AECD211BE10500F1143A /* ViewController.m */,
 				4621AECF211BE10500F1143A /* Main.storyboard */,
@@ -149,9 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				467CE0742126A1ED004161C2 /* Aspects.m in Sources */,
 				4621AECE211BE10500F1143A /* ViewController.m in Sources */,
 				4621AED9211BE10600F1143A /* main.m in Sources */,
 				4621AECB211BE10500F1143A /* AppDelegate.m in Sources */,
+				467CE0712125826C004161C2 /* MyDate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Aspects.h"
 
 @interface ViewController ()
 - (IBAction)share:(id)sender;
@@ -25,9 +26,28 @@
 -(void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    self.date = [NSDate date];
-    self.date;
-    [self.date compare:nil];
+    
+
+    
+   // self.date = [NSDate date];
+    
+    id abc =  [[MyDate alloc] init];
+    
+    [self.date  aspect_hookSelector:@selector(gogo) withOptions:AspectPositionBefore usingBlock:^(id<AspectInfo> aspectInfo)
+     {
+         printf("hook dealloc;");
+     }
+                              error:nil];
+    
+    self.date = abc;
+    
+    printf("end print");
+    
+    
+
+    
+//    self.date;
+//    [self.date compare:nil];
 }
 
 
@@ -51,7 +71,7 @@
     printf("test0");
     self.date;
     printf("test1");
-    [self.date compare:nil];
+//    [self.date compare:nil];
     printf("test2");
     
 //    UIPasteboard* pasteboard = [UIPasteboard generalPasteboard];
